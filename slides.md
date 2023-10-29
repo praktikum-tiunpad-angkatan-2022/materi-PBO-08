@@ -96,6 +96,7 @@ src: ./pages/18_Custom Exception Class.md
 src: ./pages/18_Snippets.md 
 ---
 
+
 ---
 src: ./pages/19_Cover Exercise.md 
 ---
