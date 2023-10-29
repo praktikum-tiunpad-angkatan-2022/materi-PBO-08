@@ -16,8 +16,10 @@ jobs:
           version: 8
       - name: Install dependencies
         run: pnpm i
+      - name: Install slidev
+        run:  pnpm i -g @slidev/cli
       - name: Build
-        run: pnpm run build 
+        run: slidev build --base /materi-PBO-08/ # ganti N jadi nomor pertemuan (supaya menjadi nama repo)
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
