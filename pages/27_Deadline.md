@@ -5,21 +5,10 @@ class: text-center
 
 # Deadline Pengumpulan ⌚
 
-<div grid="~ cols-2 gap-32" style="margin-top: 48px">
-<div>
+<div grid="~ text-lg" style="margin-top: 48px">
 
-#### Kelas A:
+H-1 Pertemuan Selanjutnya, 23:59 WIB
 
-7 November 2022, 23:59 WIB
-
-</div>
-<div>
-
-#### Kelas B:
-
-8 November 2022, 23:59 WIB
-
-</div>
 </div>
 
 <br>

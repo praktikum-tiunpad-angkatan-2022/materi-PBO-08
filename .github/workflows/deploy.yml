@@ -15,6 +15,8 @@ jobs:
         run: npm install
       - name: Install slidev
         run:  npm i -g @slidev/cli
+      - name: Install slidev theme globally
+        run: npm i -g @slidev/theme-default
       - name: Build
         run: slidev build --base /materi-PBO-08/ 
       - name: Deploy pages

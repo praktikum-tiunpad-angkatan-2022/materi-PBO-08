@@ -10,7 +10,7 @@ clicks: 2
 ```java {all|13|all}
 import java.util.Scanner;
 
-class UnheckedException {
+class UncheckedException {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
@@ -21,7 +21,7 @@ class UnheckedException {
         input.nextLine();
 
         int z = y / x;
-        // ArithmeticException. 
+        // ArithmeticException.
         // Suatu bilangan tidak boleh dibagi dengan 0
 
         System.out.println("Hasil z = " + z);
@@ -35,7 +35,7 @@ class UnheckedException {
 ```
 ENTER untuk lanjutkan
 
-Exception in thread "main" 
+Exception in thread "main"
 java.lang.ArithmeticException: / by zero
     at UnheckedException.main(Main.java:13)
 ```
